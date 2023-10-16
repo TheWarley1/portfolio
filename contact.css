@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 85%);
+}
+
+.container {
+  padding: 30px;
+}
+
+.logo-container {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text;
+  /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.contact span {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text;
+  /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+a:link {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 1024px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: hsl(0, 0%, 85%);
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  .logo-container {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text;
+    /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+
+  .contact span {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text;
+    /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  a:link {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text; /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-size: 16px;
+  }
+}

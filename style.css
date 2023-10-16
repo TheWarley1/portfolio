@@ -1,0 +1,502 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 85%);
+}
+
+.container {
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.name span {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+.name img {
+  height: 200px;
+  margin-left: 300px;
+}
+
+.stack {
+  margin-top: 150px;
+}
+
+.stack h1 {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+.stack p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.stack-image {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stack-image svg {
+  width: 70px;
+  height: 70px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.projects h1 {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+.projects > p {
+  margin-bottom: 50px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+
+  gap: 20px;
+}
+
+.project img {
+  width: 300px;
+  height: 160px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tile {
+  background-color: hsl(0, 1%, 21%);
+
+  border-radius: 10px;
+
+  height: 400px;
+}
+
+.tile h3 {
+  text-align: center;
+}
+
+.tile p {
+  padding: 0px 10px;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links img {
+  width: 20px;
+  height: 20px;
+}
+
+.link {
+  display: flex;
+}
+
+a:link {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text; /* For Safari and older Chrome versions */
+  background-clip: text;
+  color: transparent;
+}
+
+.note {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+@media (max-width: 1024px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: hsl(0, 0%, 85%);
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text; /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .name span {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text; /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  .name img {
+    height: 200px;
+    margin-left: 300px;
+  }
+
+  .stack {
+    margin-top: 150px;
+  }
+
+  .stack h1 {
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text; /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  .stack p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .stack-image {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .stack-image svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .projects h1 {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text; /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  .projects > p {
+    margin-bottom: 50px;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+    gap: 20px;
+  }
+
+  .project img {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .tile {
+    background-color: hsl(0, 1%, 21%);
+
+    border-radius: 10px;
+
+    height: 400px;
+  }
+
+  .tile h3 {
+    text-align: center;
+  }
+
+  .tile p {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .link {
+    display: flex;
+  }
+
+  a:link {
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-background-clip: text; /* For Safari and older Chrome versions */
+    background-clip: text;
+    color: transparent;
+  }
+
+  .note {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: hsl(0, 0%, 85%);
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-container h2 {
+    font-size: 16px;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .name img {
+    height: 200px;
+    margin-left: 50px;
+  }
+
+  .stack-image svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 300px;
+
+    gap: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: hsl(0, 0%, 85%);
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logo-container h2 {
+    font-size: 16px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+  }
+
+  .name img {
+    height: 200px;
+    margin-left: 10px;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 250px;
+
+    gap: 20px;
+  }
+
+  .project img {
+    width: 250px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .tile {
+    height: 420px;
+  }
+
+  .links {
+    display: flex;
+
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+
+  .links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .link {
+    display: flex;
+  }
+}
